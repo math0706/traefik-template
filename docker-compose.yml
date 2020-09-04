@@ -6,7 +6,8 @@ networks:
 
 services:
     traefik:
-        image: traefik:v2.1
+        restart: always
+        image: traefik:v2.2
         command:
             --api.insecure --providers.docker --providers.docker.exposedbydefault="false"
         ports:
