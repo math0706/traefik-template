@@ -1,7 +1,9 @@
 version: '3.7'
+
 networks:
-    traefik:
-      external: true
+  traefik:
+    name: traefik
+
 services:
     traefik:
         image: traefik:v2.1
