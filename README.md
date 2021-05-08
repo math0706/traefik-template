@@ -2,8 +2,7 @@
 
 Traefik template example for docker-compose to be used with docky / ak / odoo
 
-How to use
-##
+How to use it:
 
 ```sh
 git clone https://github.com/akretion/traefik-template.git traefik
